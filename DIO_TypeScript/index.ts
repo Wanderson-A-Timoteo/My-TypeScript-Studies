@@ -1,6 +1,7 @@
-const input = document.getElementById('input') as HTMLInputElement
+// Generic types
 
-input.addEventListener('input', event => {
-    const i = event.currentTarget as HTMLInputElement
-    console.log(i)
-})
+function adicionaApendiceALista<T>(array: any[], valor: T) {
+    return array.map(() => valor)
+}
+
+adicionaApendiceALista([1, 2, 3], 'd')
