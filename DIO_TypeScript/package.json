@@ -10,9 +10,11 @@
   "author": "Wanderson A. Timoteo",
   "license": "ISC",
   "dependencies": {
-    "parcel-bundler": "^1.12.5"
+    "jquery": "^3.6.0",
+    "parcel-bundler": "^1.9.4"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.11",
     "typescript": "^4.5.4"
   }
 }
