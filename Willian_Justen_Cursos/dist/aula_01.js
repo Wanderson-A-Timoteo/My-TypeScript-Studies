@@ -5,7 +5,7 @@ const button = document.getElementById("button");
 function sum(a, b) {
     return a + b;
 }
-button.addEventListener("click", () => {
+button.addEventListener("click", function () {
     console.log(sum(Number(input1.value), Number(input2.value)));
 });
 // Compilar o Typescript ->  tsc script.ts --watch
