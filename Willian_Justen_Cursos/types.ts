@@ -44,8 +44,8 @@ newTupla = [2, 'Wanderson', 'Timóteo']
 // Tipo enum:  é um enumerador que serve para criar um conjunto de chave valor. 
 // Ele é criado como se fosse um objeto, usado para definir nome para parametros complicados 
 enum Colors {
-  white = '#fff'
-  black = '#000'
+  white = '#fff',
+  Preto = '#000'
 }
 
 // Tipo any: é qualquer coisa, ou seja, podemos atribuir qualquer tipo, porém ele NÃO É LEGAL
